@@ -19,12 +19,13 @@ body {
 
 /* Header Urgente */
 .urgent-banner {
-    background: linear-gradient(135deg, #ff4757, #ff3742);
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
     color: white;
-    padding: 10px 0;
+    padding: 12px 0;
     text-align: center;
     position: relative;
     overflow: hidden;
+    box-shadow: 0 2px 10px rgba(99, 102, 241, 0.2);
 }
 
 .urgent-banner::before {
@@ -54,11 +55,13 @@ body {
     justify-content: center;
     gap: 15px;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 15px;
+    flex-wrap: wrap;
 }
 
 .banner-content i {
     animation: pulse 1.5s infinite;
+    color: #f39c12;
 }
 
 @keyframes pulse {
@@ -238,7 +241,7 @@ body {
     font-size: 2.5rem;
     font-weight: 900;
     font-family: 'Courier New', monospace;
-    color: #2c3e50;
+    color: #1f2937;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
     position: relative;
     z-index: 2;
@@ -328,9 +331,9 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     color: white;
-    padding: 80px 0 60px;
+    padding: 30px 0;
     position: relative;
     overflow: hidden;
 }
@@ -347,12 +350,13 @@ body {
 }
 
 .hero-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     align-items: center;
     position: relative;
     z-index: 2;
+    text-align: center;
 }
 
 .promo-badge {
@@ -401,16 +405,16 @@ body {
 }
 
 .hero h1 {
-    font-size: 3.5rem;
+    font-size: 2.2rem;
     font-weight: 800;
     line-height: 1.1;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .hero-description {
-    font-size: 1.3rem;
-    margin-bottom: 30px;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
     opacity: 0.9;
     font-weight: 300;
 }
@@ -431,7 +435,7 @@ body {
 }
 
 .benefit i {
-    color: #4ecdc4;
+    color: #10b981;
     font-size: 1.3rem;
 }
 
@@ -442,7 +446,7 @@ body {
 }
 
 .btn-primary {
-    background: linear-gradient(45deg, #4ecdc4, #44a08d);
+    background: linear-gradient(45deg, #10b981, #059669);
     color: white;
     padding: 18px 35px;
     text-decoration: none;
@@ -452,7 +456,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: all 0.3s ease;
-    box-shadow: 0 8px 25px rgba(78, 205, 196, 0.4);
+    box-shadow: 0 8px 25px rgba(16, 185, 129, 0.4);
     display: inline-flex;
     align-items: center;
     gap: 10px;
@@ -460,7 +464,7 @@ body {
 
 .btn-primary:hover {
     transform: translateY(-3px);
-    box-shadow: 0 12px 35px rgba(78, 205, 196, 0.6);
+    box-shadow: 0 12px 35px rgba(16, 185, 129, 0.6);
 }
 
 .btn-whatsapp {
@@ -602,7 +606,7 @@ body {
 .products-section h2 {
     text-align: center;
     font-size: 3rem;
-    color: #2c3e50;
+    color: #1f2937;
     margin-bottom: 15px;
     font-weight: 700;
 }
@@ -679,7 +683,7 @@ body {
 
 .product-info h3 {
     font-size: 1.5rem;
-    color: #2c3e50;
+    color: #1f2937;
     margin-bottom: 10px;
     font-weight: 600;
 }
@@ -701,7 +705,7 @@ body {
     align-items: center;
     gap: 8px;
     font-size: 0.9rem;
-    color: #2c3e50;
+    color: #1f2937;
 }
 
 .product-features i {
@@ -722,7 +726,7 @@ body {
 }
 
 .price .current-price {
-    color: #2c3e50;
+    color: #1f2937;
     font-size: 1.4rem;
     font-weight: bold;
 }
@@ -802,7 +806,7 @@ body {
 .testimonials h2 {
     text-align: center;
     font-size: 3rem;
-    color: #2c3e50;
+    color: #1f2937;
     margin-bottom: 60px;
     font-weight: 700;
 }
@@ -848,11 +852,11 @@ body {
     font-style: italic;
     margin-bottom: 20px;
     line-height: 1.6;
-    color: #2c3e50;
+    color: #1f2937;
 }
 
 .author strong {
-    color: #2c3e50;
+    color: #1f2937;
     font-weight: 600;
 }
 
@@ -870,7 +874,7 @@ body {
 .why-choose h2 {
     text-align: center;
     font-size: 3rem;
-    color: #2c3e50;
+    color: #1f2937;
     margin-bottom: 60px;
     font-weight: 700;
 }
@@ -909,7 +913,7 @@ body {
 }
 
 .feature h3 {
-    color: #2c3e50;
+    color: #1f2937;
     margin-bottom: 15px;
     font-size: 1.3rem;
     font-weight: 600;
@@ -929,7 +933,7 @@ body {
 .faq h2 {
     text-align: center;
     font-size: 3rem;
-    color: #2c3e50;
+    color: #1f2937;
     margin-bottom: 60px;
     font-weight: 700;
 }
@@ -960,7 +964,7 @@ body {
 .faq-question h3 {
     font-size: 1.2rem;
     font-weight: 600;
-    color: #2c3e50;
+    color: #1f2937;
 }
 
 .faq-question i {
@@ -991,7 +995,7 @@ body {
 /* Final CTA */
 .final-cta {
     padding: 80px 0;
-    background: linear-gradient(135deg, #2c3e50, #34495e);
+    background: linear-gradient(135deg, #1f2937, #374151);
     color: white;
     text-align: center;
 }
@@ -1077,7 +1081,7 @@ body {
 
 /* Footer */
 .footer {
-    background: #2c3e50;
+    background: #1f2937;
     color: white;
     padding: 60px 0 20px;
 }
@@ -1216,7 +1220,7 @@ body {
     right: 70px;
     top: 50%;
     transform: translateY(-50%);
-    background: #2c3e50;
+    background: #1f2937;
     color: white;
     padding: 8px 12px;
     border-radius: 5px;
@@ -1234,7 +1238,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
     border: 5px solid transparent;
-    border-left-color: #2c3e50;
+    border-left-color: #1f2937;
 }
 
 .whatsapp-float a:hover .tooltip {
@@ -1242,6 +1246,35 @@ body {
 }
 
 /* Responsive */
+/* Tablet y Desktop */
+@media (min-width: 769px) {
+    .hero {
+        padding: 60px 0;
+    }
+    
+    .hero-content {
+        gap: 40px;
+    }
+    
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+    
+    .hero-description {
+        font-size: 1.3rem;
+        margin-bottom: 30px;
+    }
+    
+    .benefits {
+        margin-bottom: 40px;
+    }
+    
+    .cta-buttons {
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+}
+
 @media (max-width: 768px) {
     .hero-content {
         grid-template-columns: 1fr;
